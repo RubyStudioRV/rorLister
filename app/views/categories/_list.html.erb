@@ -1,0 +1,12 @@
+<p class="notification">
+  sorry, your search not exist
+</p>
+<div>
+    <% @categories.each do |category| %>
+      <div style="margin-right: 10px; width:90px; float: left; line-height: 22px;">
+        <%= link_to "#{category.title}", category %>
+      </div>
+    <% end %>
+</div>
+
+<%= will_paginate @categories %>

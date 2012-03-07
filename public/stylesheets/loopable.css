@@ -1,0 +1,70 @@
+.del {
+    background-image: url("/images/icons/cross-active.png");
+}
+.add {
+    background-image: url("/images/icons/plus-active.png");
+}
+.add:hover {
+    background-image: url("/images/icons/plus-active.png");
+}
+.sub-del {
+    background-image: url("/images/icons/cross-active.png");
+}
+.sub-add {
+    background-image: url("/images/icons/plus-active.png");
+}
+.sub-add:hover {
+    background-image: url("/images/icons/plus-active.png");
+}
+
+.small-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.loopable-options {
+    display: inline-block;
+}
+.sub-loopable-options {
+    display: inline-block;
+}
+
+.loopable-options fieldset {
+    padding: 5px;
+    width: 400px;
+    margin-bottom: 5px;
+    float: left;
+    display: block;
+    float: left;
+}
+.sub-loopable-options fieldset {
+    padding: 5px;
+    width: 205px;
+    margin-bottom: 5px;
+    float: left;
+    display: block;
+    float: left;
+}
+.field label{
+    width: 50px !important;
+}
+.clear-right label{
+    float:left;
+    display:inline-block;
+    text-align: right;
+}
+.clear-right select{
+  margin-right: 10px;
+  padding: 2px !important;
+}
+
+.simple_form .links{
+    display:block;
+    float:left;
+}
+.simple_form .sub-links{
+    display:block;
+    float:left;
+}

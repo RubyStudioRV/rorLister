@@ -1,0 +1,242 @@
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.space-left {
+    margin-left: 5px;
+}
+.hidden{
+    display: none;
+}
+.width-100-percent{
+    width: 100%;
+}
+.over-hidden{
+    overflow: hidden;
+}
+.inline-block{
+    display: inline-block;
+}
+.clear-right{
+    clear: right !important;
+}
+* {
+    color: #111111;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+a {
+    color: #00A6EC;
+    text-decoration: none;
+}
+a:hover {
+    color: #0AA9E8;
+    text-decoration: underline;
+}
+.alert {
+    background-color: rgba(255, 150, 150, 0.5);
+    display: block;
+    left: 25%;
+    line-height: 30px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 50%;
+    z-index: 1000;
+}
+.notice {
+    background-color: rgba(150, 255, 150, 0.5);
+    display: block;
+    left: 25%;
+    line-height: 30px;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 50%;
+    z-index: 1000;
+}
+h1 {
+    font-size: 14px;
+}
+h2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+.small-icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+.add {
+    background-image: url("/images/icons/plus.png");
+}
+.add:hover {
+    background-image: url("/images/icons/plus-active.png");
+}
+.del {
+    background-image: url("/images/icons/cross-active.png");
+}
+.del:hover {
+    background-image: url("/images/icons/cross-active.png");
+}
+@font-face {
+    font-family: "LucidaBrightRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../webfontkit/lbrite-webfont.eot?#iefix") format("embedded-opentype"), url("../webfontkit/lbrite-webfont.woff") format("woff"), url("../webfontkit/lbrite-webfont.ttf") format("truetype"), url("../webfontkit/lbrite-webfont.svg#LucidaBrightRegular") format("svg");
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+body {
+    background-color: #FEFEFE;
+    margin: 0;
+    padding: 0;
+}
+#loader {
+    background-color: #FFFFFF;
+    background-image: url("../images/ajax-loader.gif");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 100px;
+    left: 45%;
+    opacity: 0.6;
+    position: absolute;
+    top: 45%;
+    width: 100px;
+}
+html, body {
+    height: 100%;
+}
+#ui-dialog-title-new_company_dialog, #ui-dialog-title-new_contact_dialog {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.4;
+}
+.fix {
+    font-family: inherit !important;
+    font-size: 12px !important;
+}
+#menu-grey {
+    display: block;
+    height: 45px;
+    width: 100%;
+}
+#logo {
+    color: #E4E4E4;
+    float: left;
+    font-family: 'LucidaBrightRegular';
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 23px 0 0 34px;
+    width: 165px;
+    z-index: 9999;
+}
+#logo:hover {
+    color: #158BFA;
+    text-decoration: none;
+}
+#logo.login_logo {
+    color: #676767;
+    display: block;
+    font-size: 28px;
+    height: 51px;
+    letter-spacing: 0;
+    margin: 0 0 0 14px;
+    width: 115px;
+}
+#app-status {
+    color: #777777;
+    display: block;
+    float: right;
+    margin-right: 10px;
+    max-width: 700px;
+    text-align: right;
+}
+#app-status a {
+    color: #E4E4E4;
+}
+section.main {
+    position: relative;
+    min-height: 500px;
+    width: 1000px;
+    top:48px;
+    margin: 0 auto;
+    padding: 0;
+    }
+section.container > footer > span {
+    color: #E4E4E4;
+}
+a.plus {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+}
+#details > a:hover {
+    text-decoration: none;
+}
+.button.big.right {
+    float: right;
+    margin-right: 10px !important;
+    margin-top: 14px;
+}
+.vertical-align-bottom {
+    vertical-align: bottom;
+}
+.cancel {
+    color: #000000;
+}
+body > section > header {
+    background-image: url("../images/header_back.jpg");
+    background-position: left top;
+    background-repeat: repeat-x;
+    display: block;
+    height: 48px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+section.container > footer {
+    background-image: url("../images/footer_bg.jpg");
+    background-repeat: repeat-x;
+    border-top: 1px solid #AAAAAA;
+    display: block;
+    margin-top: 25px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}

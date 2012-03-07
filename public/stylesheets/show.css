@@ -1,0 +1,53 @@
+div.show_for {
+    float: left;
+    width: 100%;
+}
+div.show_for > dl.wrapper {
+    border-bottom: 1px dotted #EEEEEE;
+    display: block;
+    margin: 0;
+    padding: 3px 0;
+    width: auto;
+}
+div.show_for > dl.wrapper > dt.label {
+    color: #AAAAAA;
+    display: table-cell;
+    font-weight: normal;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-align: right;
+    width: 125px;
+}
+div.show_for > dl.wrapper > dd {
+    display: table-cell;
+}
+div.show_for h3 {
+    border-bottom: 1px dotted #AAAAAA;
+    color: #595959;
+    font-size: 1.1em;
+}
+div.pagination {
+    float: right;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+table { margin: 1em; }
+th {
+    margin: 1em;
+    padding: .6em;
+}
+td {
+    margin: 1em;
+    padding: .6em;
+}
+tr {
+    margin-top: 10px;
+}
+div.form-actions {
+    margin-left: 119px
+}
+input#category_submit {
+    height: 25px;
+}

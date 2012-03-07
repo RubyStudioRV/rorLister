@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ActivityTracking</title>
+    <%= render :partial=>'/layouts/css' %>
+    <%= yield :css %>
+    <%= csrf_meta_tag %>
+    <%= render :partial=>'/layouts/js' %>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+    <section class="container">
+        <%= render :partial=>'/layouts/header' %>
+        <section class="main">
+          <%= yield :header %>
+          <%= yield %>
+        </section>
+      <%= render :partial => "layouts/footer" %>
+      <%= yield :js %>
+    </section>
+  </body>
+</html>

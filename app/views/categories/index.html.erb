@@ -1,0 +1,21 @@
+<h1 style="padding-top: 20px; padding-bottom: 10px;">Listing categories</h1>
+
+<div style="margin-bottom: 20px;">
+  <div >
+
+    <%= form_for :search, :url => { :action => "index" }, :html => { :method => "get", :remote => true } do |f| %>
+          <%#= f.label :name_contains %>
+          <%= f.text_field :title_or_tag_or_information_contains %>
+          <%= f.submit "Search" %>
+    <% end %>
+
+  </div>
+  <div>
+    <%= link_to 'New Category', new_category_path %>
+  </div>
+</div>
+
+<div id="list">
+  <%= render "list"  %>
+</div>
+

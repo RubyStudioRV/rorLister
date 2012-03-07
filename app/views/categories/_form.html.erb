@@ -1,0 +1,14 @@
+<%= simple_form_for(@category) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :date %>
+    <%= f.input :title, :label => 'Category', :input_html => {:class => "title_input"} %>
+    <%= f.input :information, :label => 'Info    ', :input_html => { :cols => 30, :rows => 10 } %>
+    <%= f.input :tag, :label => 'Tags    ', :input_html => { :cols => 30, :rows => 10 } %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>  <%= link_to 'Cancel', categories_path %>
+  </div>
+<% end %>

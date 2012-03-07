@@ -1,0 +1,102 @@
+.simple_form label {
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 2px 10px;
+    text-align: right;
+    width: 100px;
+}
+.simple_form label.top {
+    float: left;
+    margin: 5px 0 1px;
+    text-align: left;
+}
+.simple_form textarea, .simple_form select, .simple_form input {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    color: #222222;
+    font-size: 12px;
+    margin-right: 17px;
+}
+.simple_form input {
+    height: 18px;
+    padding: 2px;
+}
+.simple_form select {
+    height: 25px;
+    padding: 2px;
+}
+.simple_form input:focus, .simple_form select:focus, .simple_form textarea:focus {
+    border: 1px solid #0AA9E8;
+    box-shadow: 0 0 5px rgba(10, 169, 232, 0.3);
+    outline: medium none;
+}
+.simple_form div.input {
+    margin-bottom: 5px;
+}
+.simple_form div.no-label {
+    margin-left: 120px;
+}
+.simple_form div.float {
+    float: left;
+    width: auto;
+}
+.simple_form div.boolean {
+    margin-left: 0;
+}
+.simple_form div.boolean label {
+    float: none;
+    margin: 0;
+}
+.simple_form fieldset {
+    border-top: 1px dotted #8C8C8C;
+    margin-bottom: 20px;
+    padding: 5px 0 10px;
+    position: relative;
+}
+.simple_form fieldset > legend {
+    color: #555555;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    position: absolute;
+    top: -22px;
+}
+.simple_form fieldset.collapsible > legend {
+    background-image: url("/images/icons/slider-up.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-right: 15px;
+}
+.simple_form fieldset.collapsed > legend {
+    background-image: url("/images/icons/slider-down.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding-right: 15px;
+}
+.simple_form .hint {
+    color: #AAAAAA;
+    display: block;
+    font-size: 0.9em;
+}
+div.error {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #EEEEEE;
+    border-color: #AAAAAA #AAAAAA #AAAAAA -moz-use-text-color;
+    border-radius: 0 5px 5px 0;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: block;
+    font-size: 0.9em;
+    height: 22px;
+    line-height: 22px;
+    margin-top: -4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

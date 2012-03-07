@@ -1,0 +1,21 @@
+<h1 style="padding-top: 20px; padding-bottom: 10px; font-size: 36px; color: #00A6EC;"><%= @category.first.title.upcase %></h1>
+
+<table id="category-table">
+  <tr>
+    <th></th>
+    <th></th>
+    <th>Date</th>
+    <th>Information</th>
+  </tr>
+  <% @category.each do |category| %>
+      <tr>
+        <td><%= link_to 'Edit', edit_category_path(category) %></td>
+        <td><%= link_to 'Destroy', category_url(category) , :confirm => 'Are you sure?', :method => :delete %></td>
+        <td><%= category.date %></td>
+        <td><%= category.information %></td>
+      </tr>
+  <% end %>
+
+</table>
+
+<%= link_to 'Back', categories_path %>
